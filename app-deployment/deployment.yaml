@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: racing-game
-        image: dev-game-app:latest
+        image: quay.io/mossiddi/react-intro
         resources:
           limits:
             memory: "128Mi"
